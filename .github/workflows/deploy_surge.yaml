@@ -19,6 +19,6 @@ jobs:
       - name: Setup Surge
         run: npm install --global Surge
       - name: Executive Deployment with Surge
-        run: surge ./ project001_waseem602.surge.sh --token ${{ secrets.project001_surge_token }}
+        run: surge ./ project001_waseem602.surge.sh --token ${{ secrets.PROJECT001_SURGE_TOKEN }}
 
 ...
