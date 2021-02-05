@@ -15,10 +15,10 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v2-beta
         with:
-          node-version: '12'
+          node-version: '15'
       - name: Setup Surge
         run: npm install --global Surge
       - name: Executive Deployment with Surge
-        run: surge ./ project001_waseem602.surge.sh --token ${{ secrets.project001_surge_token }}
+        run: surge ./ project001_waseem602.surge.sh --token ${{ secrets.PROJECT001_SURGE_TOKEN }}
 
 ...
